@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+.textoMenu a:link{
+	color:#FFF;
+
+}
+
+.textoMenu a:visited {
+	color: #FFF;
+	text-decoration:none;	
+}
+
+.textoMenu a:hover{
+	color:#FFB401;
+	text-decoration:none;		
+}
+
+.textoMenu{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFF;
+	margin-top:10px;
+	line-height: 15px;
+	text-align:center;	
+}
+
+.tituloNoticiaIndex {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFF;
+	line-height: 15px;
+}
+.tituloNoticiaInterna {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #FFF;
+	line-height: 20px;
+}
+.tituloInternas {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #FFF;
+	line-height: 20px;
+}
+
+
+.tituloFooter {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFF;
+	line-height: 15px;
+}
+.enderecoIndex {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFF;
+	line-height: 18px;
+	text-align: right;
+}
+
+
+.descricaoNoticiaIndex {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	line-height: 15px;
+	color: #FFF;
+}
+.descricaoNoticiaInterna {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	color: #FFF;
+}
+
+.dataNoticiaInterna {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	line-height: 20px;
+	color: #FFF;
+	font-style: italic;
+}
+
+.cidadesFooter {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	line-height: 15px;
+	color: #FFF;
+	text-align: justify;
+}
+
+.leiaMaisIndex {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	line-height: 15px;
+	font-weight: bold;
+	color: #FFB401;
+}
+.copyright {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFB401;
+}
+
+.estadosFooter {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	line-height: 15px;
+	font-weight: bold;
+	color: #FFB401;
+}
+A:link {
+	TEXT-DECORATION: none;
+	color: #FFB401;
+}
+
+A:visited {
+	TEXT-DECORATION: none;
+	color: #FFB401;
+}
+A:active { TEXT-DECORATION: none;
+			color: #FFB401;
+}
+A:hover {
+	TEXT-DECORATION: underline;
+	color: #FFB401;
+}

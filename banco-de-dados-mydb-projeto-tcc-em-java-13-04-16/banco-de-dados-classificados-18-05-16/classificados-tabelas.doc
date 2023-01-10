@@ -1,0 +1,163 @@
+<html><head>
+<title>Data dictionary: classificados</title>
+<style>
+    td,th {
+      text-align:center; 
+      vertical-align:middle;
+    }
+    table {
+      border-collapse: collapse;
+    }
+    caption, th, td {
+      padding: .2em .8em;
+      border: 1px solid #fff;
+    }
+    caption {
+      background: #dbb768;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+    th {
+      font-weight: bold;
+      background: #f3ce7d;
+    }
+    td {
+      background: #ffea97;
+    }
+  </style>
+</head>
+<body>
+<table><caption>Table: anuncio - </caption>
+<tr><td colspan="7">Attributes</td></tr>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Not Null</th>
+<th>PK</th>
+<th>FK</th>
+<th>Default</th>
+<th>Comment</th>
+</tr>
+<tr><td>anu_cod</td><td>INT(6)</td><td>Yes</td><td>Yes</td><td>No</td><td></td><td></td></tr>
+<tr><td>cat_cod</td><td>INT(6)</td><td>Yes</td><td>No</td><td>Yes</td><td></td><td></td></tr>
+<tr><td>us_cod</td><td>INT(6)</td><td>Yes</td><td>No</td><td>Yes</td><td></td><td></td></tr>
+<tr><td>anu_nome</td><td>VARCHAR(45)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>anu_palavra_chave</td><td>VARCHAR(100)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>anu_valor</td><td>INT(6)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>anu_tipo</td><td>INT(2)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>anu_descricao</td><td>VARCHAR(200)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>anu_data</td><td>DATE</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>anu_hora</td><td>TIME</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>anu_status</td><td>INT(2)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+</table></br>
+<table><caption>Table: categoria - </caption>
+<tr><td colspan="7">Attributes</td></tr>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Not Null</th>
+<th>PK</th>
+<th>FK</th>
+<th>Default</th>
+<th>Comment</th>
+</tr>
+<tr><td>cat_cod</td><td>INT(6)</td><td>Yes</td><td>Yes</td><td>No</td><td></td><td></td></tr>
+<tr><td>pessoa_us_cod</td><td>INT(6)</td><td>Yes</td><td>No</td><td>Yes</td><td></td><td></td></tr>
+<tr><td>cat_nome</td><td>VARCHAR(45)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>cat_data</td><td>DATE</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>cat_hora</td><td>TIME</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+</table></br>
+<table><caption>Table: comentario - </caption>
+<tr><td colspan="7">Attributes</td></tr>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Not Null</th>
+<th>PK</th>
+<th>FK</th>
+<th>Default</th>
+<th>Comment</th>
+</tr>
+<tr><td>com_cod</td><td>INT(6)</td><td>Yes</td><td>Yes</td><td>No</td><td></td><td></td></tr>
+<tr><td>us_cod</td><td>INT(6)</td><td>Yes</td><td>No</td><td>Yes</td><td></td><td></td></tr>
+<tr><td>anu_cod</td><td>INT(6)</td><td>Yes</td><td>No</td><td>Yes</td><td></td><td></td></tr>
+<tr><td>com_comentario</td><td>VARCHAR(250)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>com_data</td><td>DATE</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>com_hora</td><td>TIME</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+</table></br>
+<table><caption>Table: contato - </caption>
+<tr><td colspan="7">Attributes</td></tr>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Not Null</th>
+<th>PK</th>
+<th>FK</th>
+<th>Default</th>
+<th>Comment</th>
+</tr>
+<tr><td>con_cod</td><td>INT(6)</td><td>Yes</td><td>Yes</td><td>No</td><td></td><td></td></tr>
+<tr><td>con_nome</td><td>VARCHAR(45)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>con_email</td><td>VARCHAR(45)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>con_telefone</td><td>INT(6)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>con_assunto</td><td>VARCHAR(45)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>con_mensagem</td><td>VARCHAR(400)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>con_data</td><td>DATE</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>con_hora</td><td>TIME</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+</table></br>
+<table><caption>Table: imagens - </caption>
+<tr><td colspan="7">Attributes</td></tr>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Not Null</th>
+<th>PK</th>
+<th>FK</th>
+<th>Default</th>
+<th>Comment</th>
+</tr>
+<tr><td>img_cod</td><td>INT(11)</td><td>Yes</td><td>Yes</td><td>No</td><td></td><td></td></tr>
+<tr><td>anu_cod</td><td>INT(11)</td><td>Yes</td><td>No</td><td>Yes</td><td></td><td></td></tr>
+<tr><td>img_nome</td><td>VARCHAR(45)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+</table></br>
+<table><caption>Table: pessoa - </caption>
+<tr><td colspan="7">Attributes</td></tr>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Not Null</th>
+<th>PK</th>
+<th>FK</th>
+<th>Default</th>
+<th>Comment</th>
+</tr>
+<tr><td>us_cod</td><td>INT(6)</td><td>Yes</td><td>Yes</td><td>No</td><td></td><td></td></tr>
+<tr><td>us_nome</td><td>VARCHAR(70)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>us_email</td><td>VARCHAR(50)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>us_telefone</td><td>VARCHAR(45)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>us_senha</td><td>VARCHAR(45)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>us_imagem</td><td>VARCHAR(45)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>us_datanascimento</td><td>DATE</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>us_cidade</td><td>VARCHAR(45)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>us_estado</td><td>VARCHAR(45)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>us_rua</td><td>VARCHAR(45)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>us_bairro</td><td>VARCHAR(45)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>us_cep</td><td>INT(10)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>us_status</td><td>INT(3)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>us_perfil</td><td>INT(3)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+</table></br>
+<table><caption>Table: pessoa_fisica - </caption>
+<tr><td colspan="7">Attributes</td></tr>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Not Null</th>
+<th>PK</th>
+<th>FK</th>
+<th>Default</th>
+<th>Comment</th>
+</tr>
+<tr><td>pessoa_us_cod</td><td>INT(11)</td><td>Yes</td><td>Yes</td><td>Yes</td><td></td><td></td></tr>
+<tr><td>pesf_cpf</td><td>INT(15)</td><td>Yes</td><td>No</td><td>No</td><td></td><td></td></tr>
+</table></br>
+</body></html>

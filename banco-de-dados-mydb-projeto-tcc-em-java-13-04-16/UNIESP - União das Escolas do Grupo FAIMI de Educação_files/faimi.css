@@ -1,0 +1,227 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+
+.logoFacig{
+	width:265px;
+	height:100px;
+	position:absolute;
+	top:0.5%;
+	left:2%;
+	z-index:50px;	
+}
+
+.menuSuperior{
+	width:950px;
+	height:71px;
+	position:relative;
+	
+}
+
+
+.textoMenu a:link{
+	color:#FFF;
+
+}
+
+.textoMenu a:visited {
+	color: #FFF;
+	text-decoration:none;	
+}
+
+.textoMenu a:hover{
+	color:#FFB401;
+	text-decoration:none;		
+}
+
+.textoMenu{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFF;
+	line-height: 15px;
+	text-align:center;	
+}
+
+.tituloNoticiaIndex {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFF;
+	line-height: 15px;
+	text-align: left;
+}
+.tituloNoticiaInterna {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #FFF;
+	line-height: 20px;
+}
+.tituloConteudoInterno {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #FFF;
+	line-height: 20px;
+}
+.tituloRevistaJuridicaConteudo {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #666;
+	line-height: 20px;
+}
+
+.tituloConteudoCursos {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #FFB401;
+	line-height: 20px;
+}
+
+
+.tituloInternas {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #FFF;
+	line-height: 20px;
+}
+
+
+.tituloFooter {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFF;
+	line-height: 15px;
+}
+.linksFooter {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFF;
+}
+
+.enderecoIndex {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFF;
+	line-height: 18px;
+	text-align: right;
+}
+
+
+.descricaoNoticiaIndex {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	color: #FFF;
+	text-align: left;
+	line-height: 14px;
+}
+.descricaoRevistaJuridica {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #000;
+	line-height: 20px;
+}
+.descricaoRevistaJuridicaAutores {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	color: #000;
+	line-height: 20px;
+	font-style: italic;
+}
+.caminhosPaginasRevistaJuridica {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	color: #000;
+	line-height: 20px;
+	font-style: italic;
+}
+
+
+
+.descricaoNoticiaInterna {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	color: #FFF;
+}
+.descricaoConteudoInterna {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	color: #FFF;
+	text-align: justify;
+}
+
+
+.dataNoticiaInterna {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	line-height: 20px;
+	color: #FFF;
+	font-style: italic;
+}
+
+.cidadesFooter {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	line-height: 15px;
+	color: #FFF;
+}
+
+.leiaMaisIndex {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	line-height: 15px;
+	font-weight: bold;
+	color: #FFB401;
+	text-align: left;
+}
+.copyright {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFF;
+}
+
+.estadosFooter {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	line-height: 15px;
+	font-weight: bold;
+	color: #FFB401;
+}
+A:link {
+	TEXT-DECORATION: none;
+	color: #FFB401;
+}
+
+A:visited {
+	TEXT-DECORATION: none;
+	color: #FFB401;
+}
+A:active { TEXT-DECORATION: none;
+			color: #FFB401;
+}
+A:hover {
+	TEXT-DECORATION: underline;
+	color: #FFB401;
+}
+.textoDataNoticiasIndex {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	font-style: italic;
+	text-align: left;
+	color: #FFF;
+}
